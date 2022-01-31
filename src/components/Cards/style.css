@@ -1,0 +1,43 @@
+.container .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.container .row .card{
+    margin-top: 50px;
+    padding: 20px;
+    width: 340px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 0px 15px grey;
+    margin-bottom: 70px;
+}
+.container .row .card .title{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container .row .card h4{
+    color: #FF0000;
+}
+.container span{
+    color: red;
+}
+.container .row .card .line{
+    width: 100%;
+    height: 5px;
+  }
+
+.container .row .card .line::before{
+    content:"";
+    width: 0;
+    height: 5px;
+    position: absolute;
+     background: linear-gradient(90deg, #C91D1D 50%, #F3F3F3 100%);
+    transition: all 0.5s linear;
+}
+
+.container .row .card:hover .line::before{
+    width: 85%;
+}

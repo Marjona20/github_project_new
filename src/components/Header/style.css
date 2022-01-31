@@ -1,0 +1,98 @@
+.header{
+   background-image: url(../../Assets/images/fon1.jpg);
+   background-repeat: no-repeat;
+   width: 100%;
+}
+.header .navbar .logo{
+    width: 100px;
+    height: 40px;
+}
+.header .navbar .navbar-nav{
+    text-decoration: none; 
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.header .navbar .navbar-nav .nav-item .nav-link{
+    color: white;
+    font-size: 18px;
+}
+.header .navbar .navbar-nav .nav-item{
+    margin-left: 30px;
+}
+.header .navbar .registration{
+    margin-top: 20px;
+}
+.header .navbar .registration button{
+    background-color: #324552;
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.header .navbar .registration a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.header .container .cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.header .container .cards .card1{
+    width: 450px;
+    background-color: rgba(173, 173, 173, 0.15);
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+.header .container .cards .card1 h5{
+    font-size: 22px;
+    color: white;
+    text-align: end;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.header .container .cards .card1 p{
+    font-size: 16px;
+    color: white;
+    text-align: end;
+    margin-bottom: 40px;
+}
+.header .container .cards .card2{
+    width: 450px;
+    background-color: rgba(173, 173, 173, 0.15);
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+.header .container .cards .card2 h5{
+    font-size: 22px;
+    color: white;
+    text-align: start;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.header .container .cards .card2 p{
+    font-size: 16px;
+    color: white;
+    text-align: start;
+    margin-bottom: 40px;
+}
+.header .container .cards .card3{
+    margin-top: 70px;
+}
+.header .container .cards .card3 img{
+    margin-left: 10px;
+}
+.header .container .cards .card3 p{
+    color: white;
+}
+.header .container .mens{
+    display: flex;
+    justify-content: center;
+}
+.header .container .mens img{
+    width: 300px;
+}
